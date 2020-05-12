@@ -22,9 +22,9 @@
       if (liff.getContext().type !== "none") {
         await liff.sendMessages([
       // start flex
-          {
+         {
   "type": "flex",
-  "altText": "MENU",
+  "altText": "Flex Message",
   "contents": {
     "type": "carousel",
     "contents": [
@@ -32,156 +32,68 @@
         "type": "bubble",
         "hero": {
           "type": "image",
-          "url": "https://static.wixstatic.com/media/e5c721_aa4c0873eeea46af94b4b7bf302464e9~mv2.jpg",
+          "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_5_carousel.png",
           "size": "full",
-          "aspectRatio": "1:1",
-          "aspectMode": "cover",
-        },
-        "body": {
-          "type": "box",
-          "layout": "vertical",
-          "spacing": "md",
-          "contents": [
-            {
-              "type": "text",
-              "text": "'ปังหยา",
-              "size": "xl",
-              "align": "center",
-              "weight": "bold"
-            },
-            {
-              "type": "text",
-              "text": "[ ใบเตย | ชานม | สังขยาไข่ | รวม ]",
-              "size": "sm",
-              "align": "center",
-              "color": "#613A28"
-            },
-            {
-              "type": "box",
-              "layout": "vertical",
-              "spacing": "sm",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "80฿",
-                      "flex": 0,
-                      "margin": "sm",
-                      "weight": "bold"
-                    },
-                    {
-                      "type": "text",
-                      "text": "6ลูก",
-                      "size": "sm",
-                      "align": "end",
-                      "color": "#AAAAAA"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "text",
-              "text": "🚗 สามารถจัดส่ง สฎ จังหวัดใกล้เคียง",
-              "size": "xxs",
-              "color": "#AAAAAA",
-              "wrap": true
-            }
-          ]
-        }
-      },
-      {
-        "type": "bubble",
-        "hero": {
-          "type": "image",
-          "url": "https://static.wixstatic.com/media/e5c721_0da28155d53848d5a3c8aa3399ef74b0~mv2.jpg",
-          "size": "full",
-          "aspectRatio": "1:1",
+          "aspectRatio": "20:13",
           "aspectMode": "cover"
         },
         "body": {
           "type": "box",
           "layout": "vertical",
-          "spacing": "md",
+          "spacing": "sm",
           "contents": [
             {
               "type": "text",
-              "text": "ชูว์ครีม",
+              "text": "Arm Chair, White",
               "size": "xl",
-              "align": "center",
-              "weight": "bold"
-            },
-            {
-              "type": "text",
-              "text": "[ คัสตาร์ดครีมสด | ชาเขียว | รวม ]",
-              "size": "sm",
-              "align": "center",
-              "color": "#613A28"
+              "weight": "bold",
+              "wrap": true
             },
             {
               "type": "box",
-              "layout": "vertical",
-              "spacing": "sm",
+              "layout": "baseline",
               "contents": [
                 {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "icon",
-                      "url": "https://gwangraindear.github.io/LiffMENU1/img/size-s.png"
-                    },
-                    {
-                      "type": "text",
-                      "text": "฿50",
-                      "flex": 0,
-                      "margin": "sm",
-                      "weight": "bold"
-                    },
-                    {
-                      "type": "text",
-                      "text": "10ลูก",
-                      "size": "sm",
-                      "align": "end",
-                      "color": "#AAAAAA"
-                    }
-                  ]
+                  "type": "text",
+                  "text": "$49",
+                  "flex": 0,
+                  "size": "xl",
+                  "weight": "bold",
+                  "wrap": true
                 },
                 {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "icon",
-                      "url": "https://gwangraindear.github.io/LiffMENU1/img/size-m.png"
-                    },
-                    {
-                      "type": "text",
-                      "text": "฿95",
-                      "flex": 0,
-                      "margin": "sm",
-                      "weight": "bold"
-                    },
-                    {
-                      "type": "text",
-                      "text": "20ลูก",
-                      "size": "sm",
-                      "align": "end",
-                      "color": "#AAAAAA"
-                    }
-                  ]
+                  "type": "text",
+                  "text": ".99",
+                  "flex": 0,
+                  "size": "sm",
+                  "weight": "bold",
+                  "wrap": true
                 }
               ]
+            }
+          ]
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "Add to Cart",
+                "uri": "https://www.instagram.com/explore/tags/เค้กวันเกิดbyญแพรว/"
+              },
+              "style": "primary"
             },
             {
-              "type": "text",
-              "text": "🚗 สามารถจัดส่ง สฎ จังหวัดใกล้เคียง",
-              "size": "xxs",
-              "color": "#AAAAAA",
-              "wrap": true
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "Add to whishlist",
+                "uri": "https://liff.line.me/1654167548-NvyrPjaE"
+              }
             }
           ]
         }
@@ -190,437 +102,100 @@
         "type": "bubble",
         "hero": {
           "type": "image",
-          "url": "https://static.wixstatic.com/media/e5c721_577f331663394ee0a28f45321230d032~mv2.jpg",
+          "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_6_carousel.png",
           "size": "full",
-          "aspectRatio": "1:1",
+          "aspectRatio": "20:13",
           "aspectMode": "cover"
         },
         "body": {
           "type": "box",
           "layout": "vertical",
-          "spacing": "md",
+          "spacing": "sm",
           "contents": [
             {
               "type": "text",
-              "text": "ชีสเค้กญี่ปุ่น",
+              "text": "Metal Desk Lamp",
               "size": "xl",
-              "align": "center",
-              "weight": "bold"
+              "weight": "bold",
+              "wrap": true
             },
             {
               "type": "box",
-              "layout": "vertical",
-              "spacing": "sm",
+              "layout": "baseline",
+              "flex": 1,
               "contents": [
                 {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "icon",
-                      "url": "https://gwangraindear.github.io/LiffMENU1/img/size-s.png"
-                    },
-                    {
-                      "type": "text",
-                      "text": "฿100",
-                      "flex": 0,
-                      "margin": "sm",
-                      "weight": "bold"
-                    },
-                    {
-                      "type": "text",
-                      "text": "ครึ่งปอนด์",
-                      "size": "sm",
-                      "align": "end",
-                      "color": "#AAAAAA"
-                    }
-                  ]
+                  "type": "text",
+                  "text": "$11",
+                  "flex": 0,
+                  "size": "xl",
+                  "weight": "bold",
+                  "wrap": true
                 },
                 {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "icon",
-                      "url": "https://gwangraindear.github.io/LiffMENU1/img/size-m.png"
-                    },
-                    {
-                      "type": "text",
-                      "text": "฿190",
-                      "flex": 0,
-                      "margin": "sm",
-                      "weight": "bold"
-                    },
-                    {
-                      "type": "text",
-                      "text": "1 ปอนด์",
-                      "size": "sm",
-                      "align": "end",
-                      "color": "#AAAAAA"
-                    }
-                  ]
+                  "type": "text",
+                  "text": ".99",
+                  "flex": 0,
+                  "size": "sm",
+                  "weight": "bold",
+                  "wrap": true
                 }
               ]
             },
             {
               "type": "text",
-              "text": "🚗 สามารถจัดส่ง สฎ จังหวัดใกล้เคียง กทม และ ปริมณฑล",
+              "text": "Temporarily out of stock",
+              "flex": 0,
+              "margin": "md",
               "size": "xxs",
-              "color": "#AAAAAA",
+              "color": "#FF5551",
               "wrap": true
+            }
+          ]
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "Add to Cart",
+                "uri": "https://linecorp.com"
+              },
+              "flex": 2,
+              "color": "#AAAAAA",
+              "style": "primary"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "Add to wish list",
+                "uri": "https://linecorp.com"
+              }
             }
           ]
         }
       },
       {
         "type": "bubble",
-        "hero": {
-          "type": "image",
-          "url": "https://static.wixstatic.com/media/e5c721_b1ecccbea95449c9830cd9dbc91ce1fa~mv2.jpg",
-          "size": "full",
-          "aspectRatio": "1:1",
-          "aspectMode": "cover"
-        },
         "body": {
           "type": "box",
           "layout": "vertical",
-          "spacing": "md",
+          "spacing": "sm",
           "contents": [
             {
-              "type": "text",
-              "text": "นูเทลล่าบราวนี่",
-              "size": "xl",
-              "align": "center",
-              "weight": "bold"
-            },
-            {
-              "type": "box",
-              "layout": "vertical",
-              "spacing": "sm",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "icon",
-                      "url": "https://gwangraindear.github.io/LiffMENU1/img/size-s.png"
-                    },
-                    {
-                      "type": "text",
-                      "text": "฿65",
-                      "flex": 0,
-                      "margin": "sm",
-                      "weight": "bold"
-                    },
-                    {
-                      "type": "text",
-                      "text": "100g",
-                      "size": "sm",
-                      "align": "end",
-                      "color": "#AAAAAA"
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "icon",
-                      "url": "https://gwangraindear.github.io/LiffMENU1/img/size-m.png"
-                    },
-                    {
-                      "type": "text",
-                      "text": "฿250",
-                      "flex": 0,
-                      "margin": "sm",
-                      "weight": "bold"
-                    },
-                    {
-                      "type": "text",
-                      "text": "400g",
-                      "size": "sm",
-                      "align": "end",
-                      "color": "#AAAAAA"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "text",
-              "text": "🚗 สามารถจัดส่งได้ทั่วประเทศ",
-              "size": "xxs",
-              "color": "#AAAAAA",
-              "wrap": true
-            }
-          ]
-        }
-      },
-      {
-        "type": "bubble",
-        "hero": {
-          "type": "image",
-          "url": "https://static.wixstatic.com/media/e5c721_6b8cc125935c4028b218920bf6504adf~mv2.jpeg",
-          "align": "center",
-          "size": "full",
-          "aspectRatio": "1:1",
-          "aspectMode": "cover"
-        },
-        "body": {
-          "type": "box",
-          "layout": "vertical",
-          "spacing": "md",
-          "contents": [
-            {
-              "type": "text",
-              "text": "ชีสทาร์ต",
-              "size": "xl",
-              "align": "center",
-              "weight": "bold"
-            },
-            {
-              "type": "box",
-              "layout": "vertical",
-              "spacing": "sm",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "icon",
-                      "url": "https://gwangraindear.github.io/LiffMENU1/img/size-s.png"
-                    },
-                    {
-                      "type": "text",
-                      "text": "฿100",
-                      "flex": 0,
-                      "margin": "sm",
-                      "weight": "bold"
-                    },
-                    {
-                      "type": "text",
-                      "text": "4ชิ้น",
-                      "size": "sm",
-                      "align": "end",
-                      "color": "#AAAAAA"
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "icon",
-                      "url": "https://gwangraindear.github.io/LiffMENU1/img/size-m.png"
-                    },
-                    {
-                      "type": "text",
-                      "text": "฿200",
-                      "flex": 0,
-                      "margin": "sm",
-                      "weight": "bold"
-                    },
-                    {
-                      "type": "text",
-                      "text": "9ชิ้น",
-                      "size": "sm",
-                      "align": "end",
-                      "color": "#AAAAAA"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "text",
-              "text": "🚗 สามารถจัดส่ง สฎ จังหวัดใกล้เคียง",
-              "size": "xxs",
-              "color": "#AAAAAA",
-              "wrap": true
-            }
-          ]
-        }
-      },
-      {
-        "type": "bubble",
-        "hero": {
-          "type": "image",
-          "url": "https://static.wixstatic.com/media/e5c721_6480a056cf564d7f94b2d00e144233a2~mv2.jpg",
-          "size": "full",
-          "aspectRatio": "1:1",
-          "aspectMode": "cover"
-        },
-        "body": {
-          "type": "box",
-          "layout": "vertical",
-          "spacing": "md",
-          "contents": [
-            {
-              "type": "text",
-              "text": "'ปังไข่เค็มลาวา",
-              "size": "xl",
-              "align": "center",
-              "weight": "bold"
-            },
-            {
-              "type": "box",
-              "layout": "vertical",
-              "spacing": "sm",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "฿35",
-                      "flex": 0,
-                      "margin": "sm",
-                      "weight": "bold"
-                    },
-                    {
-                      "type": "text",
-                      "text": "1กล่อง",
-                      "size": "sm",
-                      "align": "end",
-                      "color": "#AAAAAA"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "text",
-              "text": "🚗 สามารถจัดส่ง สฎ จังหวัดใกล้เคียง กทม และ ปริมณฑล",
-              "size": "xxs",
-              "color": "#AAAAAA",
-              "wrap": true
-            }
-          ]
-        }
-      },
-      {
-        "type": "bubble",
-        "hero": {
-          "type": "image",
-          "url": "https://static.wixstatic.com/media/e5c721_321fad5b516d47628884151bc43379ac~mv2.jpeg",
-          "size": "full",
-          "aspectRatio": "1:1",
-          "aspectMode": "cover"
-        },
-        "body": {
-          "type": "box",
-          "layout": "vertical",
-          "spacing": "md",
-          "contents": [
-            {
-              "type": "text",
-              "text": "ชิฟฟ่อนมะพร้าว",
-              "size": "xl",
-              "align": "center",
-              "weight": "bold"
-            },
-            {
-              "type": "box",
-              "layout": "vertical",
-              "spacing": "sm",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "฿100",
-                      "flex": 0,
-                      "margin": "sm",
-                      "weight": "bold"
-                    },
-                    {
-                      "type": "text",
-                      "text": "6ชิ้น",
-                      "size": "sm",
-                      "align": "end",
-                      "color": "#AAAAAA"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "text",
-              "text": "🚗 สามารถจัดส่ง สฎ จังหวัดใกล้เคียง กทม และ ปริมณฑล",
-              "size": "xxs",
-              "color": "#AAAAAA",
-              "wrap": true
-            }
-          ]
-        }
-      },
-      {
-        "type": "bubble",
-        "hero": {
-          "type": "image",
-          "url": "https://static.wixstatic.com/media/e5c721_2227c7a742a54e2cbde25a86a5ab39b1~mv2.jpeg",
-          "size": "full",
-          "aspectRatio": "1:1",
-          "aspectMode": "cover"
-        },
-        "body": {
-          "type": "box",
-          "layout": "vertical",
-          "spacing": "md",
-          "contents": [
-            {
-              "type": "text",
-              "text": "ปังโทสต์",
-              "size": "xl",
-              "align": "center",
-              "weight": "bold"
-            },
-            {
-              "type": "text",
-              "text": "[ ใบเตย | ชานม ]",
-              "align": "center",
-              "color": "#613A28"
-            },
-            {
-              "type": "box",
-              "layout": "vertical",
-              "spacing": "sm",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "baseline",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "฿60",
-                      "flex": 0,
-                      "margin": "sm",
-                      "weight": "bold"
-                    },
-                    {
-                      "type": "text",
-                      "text": "1ชิ้น",
-                      "size": "sm",
-                      "align": "end",
-                      "color": "#AAAAAA"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "text",
-              "text": "🚗 สามารถจัดส่ง สฎ จังหวัดใกล้เคียง",
-              "size": "xxs",
-              "color": "#AAAAAA",
-              "wrap": true
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "See more",
+                "uri": "https://linecorp.com"
+              },
+              "flex": 1,
+              "gravity": "center"
             }
           ]
         }
